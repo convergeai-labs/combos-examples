@@ -20,8 +20,8 @@ Every deployed hash is independently verified in a real browser; failures go bac
 
 | Game | One-liner | Play | Hashes | Key lessons inside |
 |---|---|---|---|---|
-| [模型大乱斗 Model Brawl](examples/model-brawl/) | One-button AI-model fighting, 20s rounds, meme KO cards | [▶ play](https://combos.converge.ai/deploy/gamepreview/9f5eed603879d8c248ae5103fc1dc275/?project_id=2084127527297781760) | 9 | Slate message fragmentation incident; desktop input-mapping bug invisible to Boo's own smoke test |
-| [模型盲测 Model Blind Test](examples/model-blind-test/) | Guess which AI model wrote the answer; face-cam + selfie score poster | [▶ play](https://combos.converge.ai/deploy/gamepreview/356eea59743a2d8b547eaa92a4a8b802/?project_id=2084252752023748608) | 7 | Broken question-bank distribution; getUserMedia pending-forever ("clicked, nothing happened") root cause & fix |
+| [模型大乱斗 Model Brawl](examples/model-brawl/) | One-button AI-model fighting, 20s rounds, meme KO cards | [▶ play](https://combos.game/play/8dd0941ae0543fcccd0fc565a6ecaf3c) | 9 | Slate message fragmentation incident; desktop input-mapping bug invisible to Boo's own smoke test |
+| [模型盲测 Model Blind Test](examples/model-blind-test/) | Guess which AI model wrote the answer; face-cam + selfie score poster | [▶ play](https://combos.game/play/ae82cf8ef3e7931e0008b02a2a7cebae) | 7 | Broken question-bank distribution; getUserMedia pending-forever ("clicked, nothing happened") root cause & fix |
 
 ## How were these built?
 

@@ -2,7 +2,7 @@
 
 一键 AI 模型格斗:选你押注的大模型,20 秒一局把别家模型打趴下,KO 出梗结算卡。
 
-**试玩(preview)**:`https://combos.converge.ai/deploy/gamepreview/9f5eed603879d8c248ae5103fc1dc275/?project_id=2084127527297781760`
+**公开试玩(Post 已发布)**:`https://combos.game/play/8dd0941ae0543fcccd0fc565a6ecaf3c`
 
 | 标题 | 选人 | 战斗 |
 |---|---|---|

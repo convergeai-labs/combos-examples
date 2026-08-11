@@ -65,3 +65,12 @@ Coding agent 的价值不是"帮你打字",而是:**把创作变成有规格、�
 4. 让 agent 驱动 Boo 创建,严格按 `references/boo-playbook.md` 的消息纪律。
 5. 每个 hash 按 `references/verification-runbook.md` 独立验证。
 6. 产出你自己的交付报告(版本链+门禁结果+风险),像本仓库的两个示例一样归档。
+
+## 发布(2026-08-11 补记)
+
+两个游戏已通过 Post 发布到社区,公开可玩(匿名实测通过):
+
+- 模型大乱斗:https://combos.game/play/8dd0941ae0543fcccd0fc565a6ecaf3c (分享码 58283)
+- 模型盲测:https://combos.game/play/ae82cf8ef3e7931e0008b02a2a7cebae (分享码 89524)
+
+发布流程学到的平台事实:preview URL 是登录态私有的(匿名访问 Forbidden),公开游玩必须走 Post;Post 对话框需要游戏描述(450 字以内),可选 Allow remix / Allow recommendation;发布后 play 页会在游戏 iframe 上叠 App 引导层和注册引导层,匿名玩家关掉两层即可完整游玩。

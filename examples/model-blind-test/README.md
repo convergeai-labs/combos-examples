@@ -2,7 +2,7 @@
 
 读一段 AI 风回答,猜是 GPT/Claude/Gemini/DeepSeek 谁写的。5 题一轮,第 4 题开始没人能全对——它学会了穿别人的衣服。支持全程出镜模式:右上角常驻你的实时表情,答错崩溃就是内容本身。
 
-**试玩(preview)**:`https://combos.converge.ai/deploy/gamepreview/356eea59743a2d8b547eaa92a4a8b802/?project_id=2084252752023748608`
+**公开试玩(Post 已发布)**:`https://combos.game/play/ae82cf8ef3e7931e0008b02a2a7cebae`
 
 | 答题 | 结算 | 自拍海报 |
 |---|---|---|

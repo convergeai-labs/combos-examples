@@ -20,8 +20,8 @@
 
 | 游戏 | 一句话 | 试玩 | Hash 数 | 内含教训 |
 |---|---|---|---|---|
-| [模型大乱斗 Model Brawl](examples/model-brawl/) | 一键 AI 模型格斗,20 秒一局,KO 出梗结算卡 | [▶ 试玩](https://combos.converge.ai/deploy/gamepreview/9f5eed603879d8c248ae5103fc1dc275/?project_id=2084127527297781760) | 9 | Slate 消息拆段事故;Boo 自测不可见的桌面输入映射反转 bug |
-| [模型盲测 Model Blind Test](examples/model-blind-test/) | 猜一段回答是哪个 AI 模型写的;全程出镜 + 自拍战绩海报 | [▶ 试玩](https://combos.converge.ai/deploy/gamepreview/356eea59743a2d8b547eaa92a4a8b802/?project_id=2084252752023748608) | 7 | 题库分布崩(一轮 4/5 同答案);getUserMedia 永久 pending("点了没反应")根因与修复 |
+| [模型大乱斗 Model Brawl](examples/model-brawl/) | 一键 AI 模型格斗,20 秒一局,KO 出梗结算卡 | [▶ 试玩](https://combos.game/play/8dd0941ae0543fcccd0fc565a6ecaf3c) | 9 | Slate 消息拆段事故;Boo 自测不可见的桌面输入映射反转 bug |
+| [模型盲测 Model Blind Test](examples/model-blind-test/) | 猜一段回答是哪个 AI 模型写的;全程出镜 + 自拍战绩海报 | [▶ 试玩](https://combos.game/play/ae82cf8ef3e7931e0008b02a2a7cebae) | 7 | 题库分布崩(一轮 4/5 同答案);getUserMedia 永久 pending("点了没反应")根因与修复 |
 
 ## 这些游戏是怎么做出来的?
 
