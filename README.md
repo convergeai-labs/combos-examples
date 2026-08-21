@@ -1,14 +1,26 @@
 # combos-examples
 
+![用 AI Agent 做游戏 —— 2 个游戏 · 16 个版本 · 0 行手写代码](docs/assets/hero.png)
+
 **中文** | [English](README.en.md)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Games: 2 playable](https://img.shields.io/badge/games-2%20playable-blueviolet)](https://github.com/convergeai-labs/combos-examples#在线试玩)
+[![Hand-written code: 0 lines](https://img.shields.io/badge/hand--written%20code-0%20lines-orange)](docs/how-built-with-agent.md)
 
 在 [Combos](https://combos.converge.ai) 上、**完全由 AI coding agent 驱动平台的 Boo 编辑 agent** 创作的游戏合集——没有手写一行游戏代码。每个示例都附带完整创作规格、交付报告、版本 hash 链和独立验证证据。
 
 > 本仓库会陆续收录多个示例,当前是第一批:一天之内做出的两个游戏。
 
+## 在线试玩
+
+无需安装,手机浏览器直接玩(匿名可玩):
+
 | 模型大乱斗 Model Brawl | 模型盲测 Model Blind Test |
 |---|---|
-| ![Model Brawl 结算战报](examples/model-brawl/screenshots/turn3-result-battle-report.png) | ![模型盲测自拍战绩海报](examples/model-blind-test/screenshots/blindtest-poster-selfie-mobile.png) |
+| ![模型大乱斗实玩:选人→格斗→KO 结算](docs/assets/demo-brawl.gif) | ![模型盲测实玩:读题→猜模型→揭晓答案](docs/assets/demo-blindtest.gif) |
+| 一键 AI 模型格斗,20 秒一局,KO 出梗结算卡 | 猜一段回答是哪个 AI 写的;全程出镜 + 自拍战绩海报 |
+| [▶ 立即开打](https://combos.game/play/8dd0941ae0543fcccd0fc565a6ecaf3c) · 分享码 `58283` | [▶ 开始盲测](https://combos.game/play/ae82cf8ef3e7931e0008b02a2a7cebae) · 分享码 `89524` |
 
 ## 创作流水线
 

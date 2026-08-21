@@ -1,14 +1,26 @@
 # combos-examples
 
+![Games built by AI agents — 2 games · 16 versions · 0 hand-written lines](docs/assets/hero.png)
+
 [中文](README.md) | **English**
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Games: 2 playable](https://img.shields.io/badge/games-2%20playable-blueviolet)](https://github.com/convergeai-labs/combos-examples#play-online)
+[![Hand-written code: 0 lines](https://img.shields.io/badge/hand--written%20code-0%20lines-orange)](docs/how-built-with-agent.md)
 
 Games created on [Combos](https://combos.converge.ai) **entirely by an AI coding agent driving the platform's Boo editor agent** — no hand-written game code. Each example ships with its full creation spec, delivery report, version (hash) chain, and verification evidence.
 
 > This repository will grow to hold multiple examples. It starts with two, built in one day.
 
+## Play online
+
+No install — opens in a mobile browser, anonymous play supported:
+
 | 模型大乱斗 Model Brawl | 模型盲测 Model Blind Test |
 |---|---|
-| ![Model Brawl battle report](examples/model-brawl/screenshots/turn3-result-battle-report.png) | ![Model Blind Test selfie poster](examples/model-blind-test/screenshots/blindtest-poster-selfie-mobile.png) |
+| ![Model Brawl gameplay: pick fighter → fight → KO report](docs/assets/demo-brawl.gif) | ![Model Blind Test gameplay: read → guess → reveal](docs/assets/demo-blindtest.gif) |
+| One-button AI-model fighting, 20s rounds, meme KO cards | Guess which AI model wrote the answer; face-cam + selfie score poster |
+| [▶ Fight now](https://combos.game/play/8dd0941ae0543fcccd0fc565a6ecaf3c) · share code `58283` | [▶ Start the test](https://combos.game/play/ae82cf8ef3e7931e0008b02a2a7cebae) · share code `89524` |
 
 ## The creation pipeline
 
