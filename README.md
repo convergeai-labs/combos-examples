@@ -21,11 +21,11 @@
 | ![一笔签实玩](docs/assets/demo-one-stroke-fortune.gif) | ![毫秒反应局实玩](docs/assets/demo-ms-reflex.gif) | ![灵魂汤底实玩](docs/assets/demo-soul-soup.gif) |
 | 国风水墨 · 画一笔抽运势签 | 霓虹合成波 · 灯绿瞬间点击 | 暖彩绘本 · 三步选择测汤底人格 |
 | 输入:连续轨迹(画) | 输入:单发时机(毫秒) | 输入:离散选择(叙事) |
-| [示例文档](examples/one-stroke-fortune/) | [示例文档](examples/ms-reflex/) | [示例文档](examples/soul-soup/) |
+| [▶ 抽签](https://combos.game/play/f21f5d3fc39ed46e571279e28e995ce8) `96120` · [文档](examples/one-stroke-fortune/) | [▶ 测反应](https://combos.game/play/28185913e918a376b139ff0c511b9ff9) `94840` · [文档](examples/ms-reflex/) | [▶ 喝汤](https://combos.game/play/1040f4909f4dc83398a9739ea27bd384) `47205` · [文档](examples/soul-soup/) |
 
-三个游戏均通过全门禁独立验证(状态机/双视口/0 控制台错误/诚实声明常驻),公开试玩链接将在 Post 发布后补充。
+三个游戏均通过全门禁独立验证(状态机/双视口/0 控制台错误/诚实声明常驻),且分布类不变量全量收口:100 次随机笔迹抽签 12/12 签覆盖、27 条叙事路径 6/6 汤底覆盖、假动作轮抢跑判定正确。
 
-## 在线试玩(已发布)
+## 第一批(已发布)
 
 无需安装,手机浏览器直接玩(匿名可玩):
 
@@ -47,9 +47,9 @@
 |---|---|---|---|---|
 | [模型大乱斗 Model Brawl](examples/model-brawl/) | 一键 AI 模型格斗,20 秒一局,KO 出梗结算卡 | [▶ 试玩](https://combos.game/play/8dd0941ae0543fcccd0fc565a6ecaf3c) | 9 | Slate 消息拆段事故;Boo 自测不可见的桌面输入映射反转 bug |
 | [模型盲测 Model Blind Test](examples/model-blind-test/) | 猜一段回答是哪个 AI 模型写的;全程出镜 + 自拍战绩海报 | [▶ 试玩](https://combos.game/play/ae82cf8ef3e7931e0008b02a2a7cebae) | 7 | 题库分布崩(一轮 4/5 同答案);getUserMedia 永久 pending("点了没反应")根因与修复 |
-| [一笔签 One Stroke Fortune](examples/one-stroke-fortune/) | 宣纸上画一笔,抽你的 2026 水墨运势签 | Post 待发布 | 1 | 完整规格 = 一次构建 0 修复;UGC 钩子不靠相机靠笔迹 |
-| [毫秒反应局 Millisecond Reaction](examples/ms-reflex/) | 灯绿就点,5 轮平均毫秒数定段位 | Post 待发布 | 1 | WebGL 游戏的外部验证:截图像素探针替代 getImageData |
-| [灵魂汤底 Soul Soup](examples/soul-soup/) | 雨夜便利店三个选择,测你的灵魂汤底 | Post 待发布 | 1 | 确定性映射(27 路径→6 汤底)写进规格,Boo 原样实现 |
+| [一笔签 One Stroke Fortune](examples/one-stroke-fortune/) | 宣纸上画一笔,抽你的 2026 水墨运势签 | [▶ 试玩](https://combos.game/play/f21f5d3fc39ed46e571279e28e995ce8) | 1 | 完整规格 = 一次构建 0 修复;UGC 钩子不靠相机靠笔迹 |
+| [毫秒反应局 Millisecond Reaction](examples/ms-reflex/) | 灯绿就点,5 轮平均毫秒数定段位 | [▶ 试玩](https://combos.game/play/28185913e918a376b139ff0c511b9ff9) | 1 | WebGL 游戏的外部验证:截图像素探针替代 getImageData |
+| [灵魂汤底 Soul Soup](examples/soul-soup/) | 雨夜便利店三个选择,测你的灵魂汤底 | [▶ 试玩](https://combos.game/play/1040f4909f4dc83398a9739ea27bd384) | 1 | 确定性映射(27 路径→6 汤底)写进规格,Boo 原样实现 |
 
 ## 这些游戏是怎么做出来的?
 

@@ -21,11 +21,11 @@ Three games with zero overlap in visual style, input mechanic, and distribution 
 | ![One Stroke Fortune gameplay](docs/assets/demo-one-stroke-fortune.gif) | ![Millisecond Reaction gameplay](docs/assets/demo-ms-reflex.gif) | ![Soul Soup gameplay](docs/assets/demo-soul-soup.gif) |
 | Ink-wash · draw one stroke for your fortune poster | Synthwave · tap the instant the light turns green | Watercolor storybook · three choices reveal your soul soup |
 | Input: continuous stroke (draw) | Input: single-shot timing (ms) | Input: discrete choices (narrative) |
-| [Example docs](examples/one-stroke-fortune/) | [Example docs](examples/ms-reflex/) | [Example docs](examples/soul-soup/) |
+| [▶ Play](https://combos.game/play/f21f5d3fc39ed46e571279e28e995ce8) `96120` · [docs](examples/one-stroke-fortune/) | [▶ Play](https://combos.game/play/28185913e918a376b139ff0c511b9ff9) `94840` · [docs](examples/ms-reflex/) | [▶ Play](https://combos.game/play/1040f4909f4dc83398a9739ea27bd384) `47205` · [docs](examples/soul-soup/) |
 
-All three passed the full independent-verification gate (state machine, dual viewport, zero console errors, permanent honesty disclaimers). Public play links will be added once their Posts are published.
+All three passed the full independent-verification gate (state machine, dual viewport, zero console errors, permanent honesty disclaimers), plus distribution invariants: 100 random-stroke draws covering 12/12 fortunes, all 27 narrative paths covering 6/6 soups, and correct false-start judgment on the fake-flash round.
 
-## Play online (published)
+## Batch 1 (published)
 
 No install — opens in a mobile browser, anonymous play supported:
 
@@ -47,9 +47,9 @@ Every deployed hash is independently verified in a real browser; failures go bac
 |---|---|---|---|---|
 | [模型大乱斗 Model Brawl](examples/model-brawl/) | One-button AI-model fighting, 20s rounds, meme KO cards | [▶ play](https://combos.game/play/8dd0941ae0543fcccd0fc565a6ecaf3c) | 9 | Slate message fragmentation incident; desktop input-mapping bug invisible to Boo's own smoke test |
 | [模型盲测 Model Blind Test](examples/model-blind-test/) | Guess which AI model wrote the answer; face-cam + selfie score poster | [▶ play](https://combos.game/play/ae82cf8ef3e7931e0008b02a2a7cebae) | 7 | Broken question-bank distribution; getUserMedia pending-forever ("clicked, nothing happened") root cause & fix |
-| [一笔签 One Stroke Fortune](examples/one-stroke-fortune/) | Draw one stroke on rice paper, get your 2026 ink fortune poster | Post pending | 1 | Complete spec = one-shot build, zero fixes; UGC hook without a camera |
-| [毫秒反应局 Millisecond Reaction](examples/ms-reflex/) | Tap on green, 5 rounds, average-ms rank card | Post pending | 1 | External verification of a WebGL game: screenshot pixel probe instead of getImageData |
-| [灵魂汤底 Soul Soup](examples/soul-soup/) | Three gentle choices in a rainy-night store reveal your soul soup | Post pending | 1 | Deterministic mapping (27 paths → 6 soups) written into the spec, implemented verbatim |
+| [一笔签 One Stroke Fortune](examples/one-stroke-fortune/) | Draw one stroke on rice paper, get your 2026 ink fortune poster | [▶ play](https://combos.game/play/f21f5d3fc39ed46e571279e28e995ce8) | 1 | Complete spec = one-shot build, zero fixes; UGC hook without a camera |
+| [毫秒反应局 Millisecond Reaction](examples/ms-reflex/) | Tap on green, 5 rounds, average-ms rank card | [▶ play](https://combos.game/play/28185913e918a376b139ff0c511b9ff9) | 1 | External verification of a WebGL game: screenshot pixel probe instead of getImageData |
+| [灵魂汤底 Soul Soup](examples/soul-soup/) | Three gentle choices in a rainy-night store reveal your soul soup | [▶ play](https://combos.game/play/1040f4909f4dc83398a9739ea27bd384) | 1 | Deterministic mapping (27 paths → 6 soups) written into the spec, implemented verbatim |
 
 ## How were these built?
 

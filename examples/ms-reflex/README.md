@@ -18,5 +18,6 @@
 
 ## 试玩
 
+[▶ 测反应](https://combos.game/play/28185913e918a376b139ff0c511b9ff9) · 分享码 `94840`
+
 项目 ID `2092174855371907072`,部署 hash `e90d33fca1e497ecbb9c2ccce5ea0018`。
-公开游玩链接将在 Post 发布后补充。
