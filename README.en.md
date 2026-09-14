@@ -5,14 +5,24 @@
 [中文](README.md) | **English**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Games: 5](https://img.shields.io/badge/games-5-blueviolet)](https://github.com/convergeai-labs/combos-examples#play-online)
+[![Games: 5](https://img.shields.io/badge/games-6-blueviolet)](https://github.com/convergeai-labs/combos-examples#play-online)
 [![Hand-written code: 0 lines](https://img.shields.io/badge/hand--written%20code-0%20lines-orange)](docs/how-built-with-agent.md)
 
 Games created on [Combos](https://combos.converge.ai) **entirely by an AI coding agent driving the platform's Boo editor agent** — no hand-written game code. Each example ships with its full creation spec, delivery report, version (hash) chain, and verification evidence.
 
 > Batch 1: two games built in one day (pixel fighting + terminal quiz). Batch 2 (2026-08-25): a style-diversity trio — ink-wash, synthwave, watercolor — each **one-shot built, zero fix turns**.
 
-## Latest: the style-diversity batch
+## Latest: the 3D showcase (gpt-6-astra)
+
+| 崩塌实验室 Crash Lab |
+|---|
+| ![Crash Lab gameplay: aim → launch → slow-mo collapse → result](docs/assets/demo-crashlab.gif) |
+| Blender-grade 3D physics destruction: drag to aim, one shot, 0.25× slow-mo collapse, destruction-% rank card |
+| [▶ Start smashing](https://combos.game/play/9b198fca47ea7195ca115dc396b85b7b) `94401` · [docs](examples/crash-lab/) |
+
+First 3D game in the collection, built in one shot by **gpt-6-astra** with zero fix turns; seeded physics — identical drags measured ±0% across runs.
+
+## The style-diversity batch
 
 Three games with zero overlap in visual style, input mechanic, and distribution structure:
 
@@ -39,7 +49,7 @@ No install — opens in a mobile browser, anonymous play supported:
 
 ![Creation pipeline: viral design → spec → Boo creation → independent browser verification → bounded fixes → delivery report](docs/assets/creation-pipeline.png)
 
-Every deployed hash is independently verified in a real browser; failures go back for a bounded fix turn and the new hash is verified again. Five games, 19 deployed hashes, zero hand-written code.
+Every deployed hash is independently verified in a real browser; failures go back for a bounded fix turn and the new hash is verified again. Six games, 20 deployed hashes, zero hand-written code.
 
 ## Examples
 
@@ -50,6 +60,7 @@ Every deployed hash is independently verified in a real browser; failures go bac
 | [一笔签 One Stroke Fortune](examples/one-stroke-fortune/) | Draw one stroke on rice paper, get your 2026 ink fortune poster | [▶ play](https://combos.game/play/f21f5d3fc39ed46e571279e28e995ce8) | 1 | Complete spec = one-shot build, zero fixes; UGC hook without a camera |
 | [毫秒反应局 Millisecond Reaction](examples/ms-reflex/) | Tap on green, 5 rounds, average-ms rank card | [▶ play](https://combos.game/play/28185913e918a376b139ff0c511b9ff9) | 1 | External verification of a WebGL game: screenshot pixel probe instead of getImageData |
 | [灵魂汤底 Soul Soup](examples/soul-soup/) | Three gentle choices in a rainy-night store reveal your soul soup | [▶ play](https://combos.game/play/1040f4909f4dc83398a9739ea27bd384) | 1 | Deterministic mapping (27 paths → 6 soups) written into the spec, implemented verbatim |
+| [崩塌实验室 Crash Lab](examples/crash-lab/) | Blender-grade 3D physics destruction in slow motion | [▶ play](https://combos.game/play/9b198fca47ea7195ca115dc396b85b7b) | 1 | Built by gpt-6-astra on demand; seeded physics ±0% measured |
 
 ## How were these built?
 
