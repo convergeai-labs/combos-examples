@@ -1,6 +1,6 @@
 # combos-examples
 
-![Games built by AI agents — 2 games · 16 versions · 0 hand-written lines](docs/assets/hero.png)
+![Games built by AI agents — 6 games · 20 versions · 0 hand-written lines](docs/assets/hero.png)
 
 [中文](README.md) | **English**
 
@@ -72,7 +72,7 @@ Built with the companion skill: [combos-skills / combos-game-creator](https://gi
 
 ## A note on honesty
 
-Both games are **style-imitation entertainment**: quiz answers are human-written parodies of model styles, not real model outputs, and the games carry a permanent visible disclaimer saying so. "击败了全国 X% 的人" is labeled pseudo-random theater, not a real leaderboard. No vendor logos are used anywhere.
+**Every game carries a permanent visible honesty disclaimer**: quiz answers are human-written style parodies (not real model outputs); percentile figures ("击败了全国 X% 的人", "top X% of players") are labeled theater, not real leaderboards; One Stroke Fortune's fortunes are program-generated entertainment; Soul Soup is labeled "entertainment, not a psychological diagnosis". No vendor logos are used anywhere.
 
 ## License
 
