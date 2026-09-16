@@ -1,18 +1,28 @@
 # combos-examples
 
-![用 AI Agent 做游戏 —— 6 个游戏 · 20 个版本 · 0 行手写代码](docs/assets/hero.png)
+![用 AI Agent 做游戏 —— 7 个游戏 · 21 个版本 · 0 行手写代码](docs/assets/hero.png)
 
 **中文** | [English](README.en.md)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Games: 5](https://img.shields.io/badge/games-6-blueviolet)](https://github.com/convergeai-labs/combos-examples#在线试玩)
+[![Games: 5](https://img.shields.io/badge/games-7-blueviolet)](https://github.com/convergeai-labs/combos-examples#在线试玩)
 [![Hand-written code: 0 lines](https://img.shields.io/badge/hand--written%20code-0%20lines-orange)](docs/how-built-with-agent.md)
 
 在 [Combos](https://combos.converge.ai) 上、**完全由 AI coding agent 驱动平台的 Boo 编辑 agent** 创作的游戏合集——没有手写一行游戏代码。每个示例都附带完整创作规格、交付报告、版本 hash 链和独立验证证据。
 
 > 第一批:一天之内做出的两个游戏(像素格斗 + 终端盲测)。第二批(2026-08-25):风格多样性三连——水墨、霓虹、水彩,三个游戏全部**一次构建通过,0 修复 turn**。
 
-## 最新:3D 大作批次(gpt-6-astra)
+## 最新:大作批次(gpt-6-astra × max reasoning)
+
+| 灰烬王座 Ash Throne |
+|---|
+| ![灰烬王座实玩:挑战灰烬王→翻滚攻防→薪尽于此](docs/assets/demo-ashthrone.gif) |
+| 魂系三阶段 Boss 决斗:废墟王座厅、前摇电报、无敌帧翻滚、死亡/处决双结算卡 |
+| [▶ 挑战灰烬王](https://combos.game/play/aa231fec03a4e477ba35bb49b25025bc) `29769` · [示例文档](examples/ash-throne/) |
+
+合集最重的一件:不计成本,gpt-6-astra + max reasoning 一次构建;内建 e2e 测试钩子(`__combosGameplayTest`),快照+回调直达双结算分支。自动化 bot 也只能活 23 秒——难度是设计目标。
+
+## 3D 大作批次(gpt-6-astra)
 
 | 崩塌实验室 Crash Lab |
 |---|
@@ -49,7 +59,7 @@
 
 ![创作流水线:传播设计→写规格→Boo 创建→独立浏览器验证→有界修复→交付报告](docs/assets/creation-pipeline.png)
 
-每个部署 hash 都经过独立浏览器验证;验证不过就回炉,新 hash 再验证。六个游戏共 20 个部署 hash,0 行手写代码。
+每个部署 hash 都经过独立浏览器验证;验证不过就回炉,新 hash 再验证。七个游戏共 21 个部署 hash,0 行手写代码。
 
 ## 示例
 
@@ -61,6 +71,7 @@
 | [毫秒反应局 Millisecond Reaction](examples/ms-reflex/) | 灯绿就点,5 轮平均毫秒数定段位 | [▶ 试玩](https://combos.game/play/28185913e918a376b139ff0c511b9ff9) | 1 | WebGL 游戏的外部验证:截图像素探针替代 getImageData |
 | [灵魂汤底 Soul Soup](examples/soul-soup/) | 雨夜便利店三个选择,测你的灵魂汤底 | [▶ 试玩](https://combos.game/play/1040f4909f4dc83398a9739ea27bd384) | 1 | 确定性映射(27 路径→6 汤底)写进规格,Boo 原样实现 |
 | [崩塌实验室 Crash Lab](examples/crash-lab/) | Blender 级 3D 物理破坏,一击轰碎慢动作 | [▶ 试玩](https://combos.game/play/9b198fca47ea7195ca115dc396b85b7b) | 1 | 指定 gpt-6-astra 构建;固定种子同弹道 ±0% 实测 |
+| [灰烬王座 Ash Throne](examples/ash-throne/) | 魂系三阶段 Boss 决斗,翻滚攻防大作感 | [▶ 试玩](https://combos.game/play/aa231fec03a4e477ba35bb49b25025bc) | 1 | gpt-6-astra × max reasoning;内建 e2e 钩子(__combosGameplayTest) |
 
 ## 这些游戏是怎么做出来的?
 

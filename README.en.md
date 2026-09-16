@@ -1,18 +1,28 @@
 # combos-examples
 
-![Games built by AI agents — 6 games · 20 versions · 0 hand-written lines](docs/assets/hero.png)
+![Games built by AI agents — 7 games · 21 versions · 0 hand-written lines](docs/assets/hero.png)
 
 [中文](README.md) | **English**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Games: 5](https://img.shields.io/badge/games-6-blueviolet)](https://github.com/convergeai-labs/combos-examples#play-online)
+[![Games: 5](https://img.shields.io/badge/games-7-blueviolet)](https://github.com/convergeai-labs/combos-examples#play-online)
 [![Hand-written code: 0 lines](https://img.shields.io/badge/hand--written%20code-0%20lines-orange)](docs/how-built-with-agent.md)
 
 Games created on [Combos](https://combos.converge.ai) **entirely by an AI coding agent driving the platform's Boo editor agent** — no hand-written game code. Each example ships with its full creation spec, delivery report, version (hash) chain, and verification evidence.
 
 > Batch 1: two games built in one day (pixel fighting + terminal quiz). Batch 2 (2026-08-25): a style-diversity trio — ink-wash, synthwave, watercolor — each **one-shot built, zero fix turns**.
 
-## Latest: the 3D showcase (gpt-6-astra)
+## Latest: the AAA batch (gpt-6-astra × max reasoning)
+
+| 灰烬王座 Ash Throne |
+|---|
+| ![Ash Throne gameplay: challenge → dodge-and-strike → death card](docs/assets/demo-ashthrone.gif) |
+| A three-phase souls-like boss duel: ruined throne hall, telegraphed wind-ups, i-frame dodges, dual victory/defeat cards |
+| [▶ Challenge the Ash King](https://combos.game/play/aa231fec03a4e477ba35bb49b25025bc) `29769` · [docs](examples/ash-throne/) |
+
+The heaviest game in the collection: gpt-6-astra at max reasoning effort, one build, zero fix turns; ships a built-in e2e hook (`__combosGameplayTest`) with snapshots and outcome callbacks. A dash-spam bot survives only 23 seconds — the difficulty is the design goal.
+
+## The 3D showcase (gpt-6-astra)
 
 | 崩塌实验室 Crash Lab |
 |---|
@@ -49,7 +59,7 @@ No install — opens in a mobile browser, anonymous play supported:
 
 ![Creation pipeline: viral design → spec → Boo creation → independent browser verification → bounded fixes → delivery report](docs/assets/creation-pipeline.png)
 
-Every deployed hash is independently verified in a real browser; failures go back for a bounded fix turn and the new hash is verified again. Six games, 20 deployed hashes, zero hand-written code.
+Every deployed hash is independently verified in a real browser; failures go back for a bounded fix turn and the new hash is verified again. Seven games, 21 deployed hashes, zero hand-written code.
 
 ## Examples
 
@@ -61,6 +71,7 @@ Every deployed hash is independently verified in a real browser; failures go bac
 | [毫秒反应局 Millisecond Reaction](examples/ms-reflex/) | Tap on green, 5 rounds, average-ms rank card | [▶ play](https://combos.game/play/28185913e918a376b139ff0c511b9ff9) | 1 | External verification of a WebGL game: screenshot pixel probe instead of getImageData |
 | [灵魂汤底 Soul Soup](examples/soul-soup/) | Three gentle choices in a rainy-night store reveal your soul soup | [▶ play](https://combos.game/play/1040f4909f4dc83398a9739ea27bd384) | 1 | Deterministic mapping (27 paths → 6 soups) written into the spec, implemented verbatim |
 | [崩塌实验室 Crash Lab](examples/crash-lab/) | Blender-grade 3D physics destruction in slow motion | [▶ play](https://combos.game/play/9b198fca47ea7195ca115dc396b85b7b) | 1 | Built by gpt-6-astra on demand; seeded physics ±0% measured |
+| [灰烬王座 Ash Throne](examples/ash-throne/) | Three-phase souls-like boss duel, dodge-and-strike | [▶ play](https://combos.game/play/aa231fec03a4e477ba35bb49b25025bc) | 1 | gpt-6-astra × max reasoning; built-in e2e hook (__combosGameplayTest) |
 
 ## How were these built?
 
